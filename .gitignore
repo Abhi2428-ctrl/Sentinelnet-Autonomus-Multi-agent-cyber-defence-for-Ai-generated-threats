@@ -1,0 +1,38 @@
+ Credentials and keys — NEVER share
+extension_keys*
+privacy_config*
+_keys
+_config
+.env
+*.key
+*.pem
+config.json
+
+# Cache and runtime data
+startup_cache*
+_cache
+logs/
+*.log
+
+# Learned model weights
+*.npz
+*.npy
+models/
+weights/
+
+# Captured network/email data
+captured_packets/
+emails/
+
+# Python
+_pycache_/
+*.pyc
+venv/
+.venv/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Keep test files
+!TEST_FILES/
